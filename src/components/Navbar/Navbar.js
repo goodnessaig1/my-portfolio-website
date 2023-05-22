@@ -10,9 +10,7 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-            <div
-                className="flex flex-row items-center gap-2"
-            >
+            <div className="flex flex-row items-center gap-2">
                 <img
                     src={profile}
                     alt="profile"
@@ -59,10 +57,11 @@ const Navbar = () => {
                                     <span>INBIO</span>
                                 </div>
                                 <p className="text-sm text-gray-400 mt-2">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Earum soluta perspiciatis
-                                    molestias enim cum repellat, magnam
-                                    exercitationem distinctio aliquid nam.
+                                    Goodness Aigbokhan is a skilled full stack
+                                    software engineer adept at creating scalable
+                                    solutions. With expertise in front-end and
+                                    back-end development, he delivers efficient
+                                    and innovative software applications.
                                 </p>
                             </div>
                             <ul className="flex flex-col gap-4">
