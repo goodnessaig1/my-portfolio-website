@@ -18,8 +18,10 @@ const ContactLeft = () => {
                     Full Stack Developer
                 </p>
                 <p className="text-base text-gray-400 tracking-wide">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Facilis ipsam autem cumque, accusantium dicta odio.
+                    Thank you for your interest in my full stack software
+                    development services. We are excited to connect with you and
+                    discuss how we can work together to bring your ideas to
+                    life.
                 </p>
                 <p className="text-base text-gray-400 flex items-center gap-2">
                     Phone:{' '}
