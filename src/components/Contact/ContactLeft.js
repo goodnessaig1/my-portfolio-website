@@ -25,7 +25,9 @@ const ContactLeft = () => {
                 </p>
                 <p className="text-base text-gray-400 flex items-center gap-2">
                     Phone:{' '}
-                    <span className="text-lightText">+234 8171446659</span>
+                    <span className="text-xs text-lightText">
+                        +234 8171446659 | +234 9113649045
+                    </span>
                 </p>
                 <p className="text-base text-gray-400 flex items-center gap-2">
                     Email:{' '}
@@ -34,7 +36,7 @@ const ContactLeft = () => {
                     </span>
                 </p>
             </div>
-            <div className="flex flex-col gap-4">
+            {/* <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
                     Find me in
                 </h2>
@@ -49,7 +51,7 @@ const ContactLeft = () => {
                         <FaLinkedinIn />
                     </span>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

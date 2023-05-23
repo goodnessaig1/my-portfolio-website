@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import { RiStarFill } from 'react-icons/ri';
 import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 import Title from '../Layouts/Title';
-import { testimonialOne, testimonialTwo, quote } from '../../assets';
+import { quote } from '../../assets';
 import mentor from '../../assets/images/testmonial/mentor.png';
 import esosa from '../../assets/images/testmonial/esosa.png';
 import gideon from '../../assets/images/gideon.png';
@@ -73,7 +73,7 @@ const Testimonial = () => {
                               width: '12px',
                               height: '12px',
                               color: 'blue',
-                              background: '#ff014f',
+                              background: 'rgb(37, 243, 236)',
                               borderRadius: '50%',
                               cursor: 'pointer',
                           }
@@ -110,13 +110,13 @@ const Testimonial = () => {
                                 />
                                 <div className="w-full flex flex-col justify-end">
                                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                                        Software Engineer and Coach
+                                        Clerax Tech
                                     </p>
                                     <h3 className="text-2xl font-bold">
                                         Courage Osemwengie
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        PR Manager for Staffconn
+                                        Chief Technology Officer
                                     </p>
                                 </div>
                             </div>

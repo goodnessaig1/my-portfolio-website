@@ -31,6 +31,6 @@ export const featuresData = [
         id: 5,
         icon: <FaGlobe />,
         title: 'Hosting Websites',
-        des: 'Hosting websites involves making them accessible and available to users on the internet. As a software engineer, understanding the process of hosting websites is crucial for deploying web applications and making them publicly accessible.',
+        des: 'Hosting a website requires technical knowledge, attention to detail, and adherence to best practices. As a software engineer i apply my their expertise to ensure the website is accessible, secure, and and performs well for its intended audience by continuously Monitoring the performance, availiability and security.',
     },
 ];

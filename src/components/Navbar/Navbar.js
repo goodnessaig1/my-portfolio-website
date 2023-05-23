@@ -9,7 +9,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
-        <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+        <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont ">
             <div className="flex flex-row items-center gap-2">
                 <img
                     src={profile}
@@ -22,7 +22,7 @@ const Navbar = () => {
                 <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
                     {navLinksData.map(({ _id, title, link }) => (
                         <li
-                            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                            className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-cMain duration-300"
                             key={_id}
                         >
                             <Link

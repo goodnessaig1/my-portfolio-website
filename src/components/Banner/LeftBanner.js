@@ -5,7 +5,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ['Professional Coder.', 'Full Stack Developer.'],
+        words: ['Professional Developer.', 'Full Stack Developer.'],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
@@ -14,10 +14,9 @@ const LeftBanner = () => {
     return (
         <div className="w-full lgl:w-1/2 flex flex-col gap-20">
             <div className="flex flex-col gap-5">
-                <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
                 <h1 className="text-6xl font-bold text-white">
                     Hi, I'm{' '}
-                    <span className="text-designColor capitalize">
+                    <span className="text-cMain capitalize">
                         Goodness Aigbokhan
                     </span>
                 </h1>
@@ -26,21 +25,16 @@ const LeftBanner = () => {
                     <Cursor
                         cursorBlinking="false"
                         cursorStyle="|"
-                        cursorColor="#ff014f"
+                        cursorColor="rgb(37, 243, 236)"
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    {/* I use animation as a third dimension by which to simplify
-                    experiences and kuiding thro each and every interaction. I'm
-                    not adding motion just to spruce things up, but doing it in
-                    ways that. */}
                     With some years of experience building and designing
                     software. Currently, I love to work on web applications
                     using technologies like React, Tailwind, Node JS, MongoDB,
                     PostgreSQL.
                 </p>
             </div>
-            {/* Media */}
             <Media />
         </div>
     );
