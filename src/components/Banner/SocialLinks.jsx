@@ -40,7 +40,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/myresume.pdf',
+            href: '/GOODNESS_AIGBOKHAN_Resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },

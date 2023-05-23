@@ -167,14 +167,14 @@ const Testimonial = () => {
                                     alt="testimonialTwo"
                                 />
                                 <div className="w-full flex flex-col justify-end">
-                                    <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                                    {/* <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                                         UI/UX Designer
-                                    </p>
+                                    </p> */}
                                     <h3 className="text-2xl font-bold">
                                         Esosa Odia
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        Design Officer
+                                        UI/UX Designer
                                     </p>
                                 </div>
                             </div>
@@ -226,14 +226,14 @@ const Testimonial = () => {
                                     alt="testimonialOne"
                                 />
                                 <div className="w-full flex flex-col justify-end">
-                                    <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                                    {/* <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                                         Bound - Trolola
-                                    </p>
+                                    </p> */}
                                     <h3 className="text-2xl font-bold">
                                         Gideon Aigbokhan
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        UI/UX Designer
+                                        Product Designer
                                     </p>
                                 </div>
                             </div>
