@@ -12,7 +12,7 @@ const Resume = () => {
             className="w-full py-20 border-b-[1px] border-b-black"
         >
             <div className="flex justify-center items-center text-center">
-                <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
+                <Title title="3+ YEARS OF EXPERIENCE" des="My Resume" />
             </div>
             <div>
                 <ul className="w-full gap-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">

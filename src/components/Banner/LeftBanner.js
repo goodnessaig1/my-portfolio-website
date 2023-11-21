@@ -12,7 +12,7 @@ const LeftBanner = () => {
         delaySpeed: 2000,
     });
     return (
-        <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+        <div className="w-full lgl:w-1/2 flex flex-col gap-20 sm:h-screen">
             <div className="flex flex-col gap-5">
                 <h1 className="text-6xl font-bold text-white">
                     Hi, I'm{' '}
@@ -20,7 +20,7 @@ const LeftBanner = () => {
                         Goodness Aigbokhan
                     </span>
                 </h1>
-                <h2 className="text-4xl font-bold text-white">
+                <h2 className="sm:h-24 sml:h-24 lg:h-6 text-4xl font-bold text-white">
                     a <span>{text}</span>
                     <Cursor
                         cursorBlinking="false"
@@ -29,10 +29,10 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    With some years of experience building and designing
-                    software. Currently, I love to work on web applications
-                    using technologies like React, Tailwind, Node JS, MongoDB,
-                    PostgreSQL.
+                    With 3+ years of experience building and designing software.
+                    Currently, I love to work on web applications using
+                    technologies like React,TypeScript, Next JS, CSS, Tailwind,
+                    Node JS, MongoDB, PostgreSQL.
                 </p>
             </div>
             <Media />

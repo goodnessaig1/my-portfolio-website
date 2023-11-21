@@ -34,10 +34,10 @@ const Projects = () => {
                 />
                 <ProjectsCard
                     title="Amazone Clone"
-                    des="This is an ecommerce website where you can buy electronice and other appliance or devices"
+                    des="This is a Fullstack E-commerce website where users can purchase varitey of items ranging from electronics, computer, fashion items, health care products"
                     src={amazon}
-                    gitRepo="https://github.com/goodnessaig1/Amazone-clone"
-                    live="https://opposite-regret.surge.sh/ "
+                    gitRepo="https://github.com/goodnessaig1/amazon_clone_frontend"
+                    live="https://amazon-clone-g.vercel.app/ "
                 />
                 <ProjectsCard
                     title="The Avenu"
