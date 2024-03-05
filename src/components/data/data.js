@@ -1,7 +1,7 @@
 import { AiFillAppstore } from 'react-icons/ai';
 import { FaMobile, FaGlobe } from 'react-icons/fa';
 import { SiProgress, SiAntdesign } from 'react-icons/si';
-
+import { CgWebsite } from 'react-icons/cg';
 // Features Data
 export const featuresData = [
     {
@@ -29,6 +29,12 @@ export const featuresData = [
     },
     {
         id: 5,
+        icon: <CgWebsite />,
+        title: 'Web Development',
+        des: 'I am a versatile web developer proficient in both front-end and back-end technologies. With expertise in HTML, CSS, JavaScript, and server-side programming languages, I design and implement dynamic and responsive websites. Committed to security and performance optimization, I deliver robust and innovative web solutions.',
+    },
+    {
+        id: 6,
         icon: <FaGlobe />,
         title: 'Hosting Websites',
         des: 'Hosting a website requires technical knowledge, attention to detail, and adherence to best practices. As a software engineer i apply my their expertise to ensure the website is accessible, secure, and and performs well for its intended audience by continuously Monitoring the performance, availiability and security.',

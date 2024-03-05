@@ -29,10 +29,10 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    With 3+ years of experience building and designing software.
+                    With 4+ years of experience building and designing software.
                     Currently, I love to work on web applications using
-                    technologies like React,TypeScript, Next JS, CSS, Tailwind,
-                    Node JS, MongoDB, PostgreSQL.
+                    technologies like React, React Native, TypeScript, Next JS,
+                    CSS, Tailwind, Node JS, MongoDB, PostgreSQL.
                 </p>
             </div>
             <Media />

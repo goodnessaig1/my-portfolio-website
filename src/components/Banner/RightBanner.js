@@ -1,6 +1,7 @@
 import React from 'react';
 // import { bannerImg } from '../../assets/index';
-import profile from '../../assets/images/profile.jpg';
+// import profile from '../../assets/images/profile.jpg';
+import profile from '../../assets/images/prof.jpg';
 const RightBanner = () => {
     return (
         <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
