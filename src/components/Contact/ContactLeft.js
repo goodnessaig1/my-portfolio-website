@@ -31,7 +31,9 @@ const ContactLeft = () => {
                 <p className="text-base text-gray-400 flex items-center gap-2">
                     Email:{' '}
                     <span className="text-lightText">
-                        goodness6337@gmail.com
+                        <a href="mailto:goodness6337@gmail.com">
+                            goodness6337@gmail.com
+                        </a>
                     </span>
                 </p>
             </div>
