@@ -5,7 +5,7 @@ import { RiStarFill } from 'react-icons/ri';
 import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 import Title from '../Layouts/Title';
 import { quote } from '../../assets';
-import mentor from '../../assets/images/testmonial/mentor.png';
+import mentor from '../../assets/images/mentor.jpeg';
 import esosa from '../../assets/images/testmonial/esosa.png';
 import gideon from '../../assets/images/gideon.png';
 function SampleNextArrow(props) {
@@ -110,13 +110,13 @@ const Testimonial = () => {
                                 />
                                 <div className="w-full flex flex-col justify-end">
                                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                                        Clerax Tech
+                                        Novaminds (malta)
                                     </p>
                                     <h3 className="text-2xl font-bold">
                                         Courage Osemwengie
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        Chief Technology Officer
+                                        CEO Novaminds technologies (malta)
                                     </p>
                                 </div>
                             </div>
@@ -130,10 +130,10 @@ const Testimonial = () => {
                                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                                         <div>
                                             <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                                                Staffconn Web & Mobile.
+                                                Yummy Yo.
                                             </h3>
                                             <p className="text-base text-gray-400 mt-3">
-                                                2022 - March
+                                                2024 - March
                                             </p>
                                         </div>
                                         <div className="text-yellow-500 flex gap-1">
@@ -145,12 +145,14 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                                        Goodness Aigbokhan is one of my most
-                                        hard working students i have mentored.
-                                        He alsway wants to solve problems and
-                                        with the best code practices. He dosen't
-                                        believe in impossibilities with code. I
-                                        love the energy he puts into Coding
+                                        Goodness Aigbokhan is a highly skilled
+                                        and dedicated full-stack developer who
+                                        consistently delivers innovative
+                                        solutions with precision and excellence,
+                                        exceeding expectations and driving
+                                        project success with his expertise in
+                                        React, Node.js, and modern web
+                                        technologies.
                                     </p>
                                 </div>
                             </div>
@@ -167,9 +169,6 @@ const Testimonial = () => {
                                     alt="testimonialTwo"
                                 />
                                 <div className="w-full flex flex-col justify-end">
-                                    {/* <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                                        UI/UX Designer
-                                    </p> */}
                                     <h3 className="text-2xl font-bold">
                                         Esosa Odia
                                     </h3>
@@ -226,14 +225,11 @@ const Testimonial = () => {
                                     alt="testimonialOne"
                                 />
                                 <div className="w-full flex flex-col justify-end">
-                                    {/* <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                                        Bound - Trolola
-                                    </p> */}
                                     <h3 className="text-2xl font-bold">
                                         Gideon Aigbokhan
                                     </h3>
                                     <p className="text-base tracking-wide text-gray-500">
-                                        Product Designer
+                                        Product Designer(UK)
                                     </p>
                                 </div>
                             </div>

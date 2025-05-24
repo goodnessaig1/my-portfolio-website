@@ -65,6 +65,23 @@ const Skills = () => {
                     </div>
                     <div className="overflow-x-hidden">
                         <p className="text-sm uppercase font-medium">
+                            TAILWIND CSS
+                        </p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    90%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">
                             JAVASCRIPT
                         </p>
                         <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
@@ -72,10 +89,27 @@ const Skills = () => {
                                 initial={{ x: '-100%', opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 0.5 }}
-                                className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                                className="w-[84%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                             >
                                 <span className="absolute -top-7 right-0">
-                                    75%
+                                    84%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">
+                            TYPESCRIPT
+                        </p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    80%
                                 </span>
                             </motion.span>
                         </span>
@@ -93,6 +127,23 @@ const Skills = () => {
                             >
                                 <span className="absolute -top-7 right-0">
                                     90%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">
+                            RESPONSIVE DEVELOPMENT
+                        </p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[98%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    98%
                                 </span>
                             </motion.span>
                         </span>
@@ -120,6 +171,21 @@ const Skills = () => {
                             >
                                 <span className="absolute -top-7 right-0">
                                     90%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">Nest Js</p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    80%
                                 </span>
                             </motion.span>
                         </span>
@@ -154,6 +220,40 @@ const Skills = () => {
                             >
                                 <span className="absolute -top-7 right-0">
                                     80%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">
+                            Firebase.
+                        </p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    80%
+                                </span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className="overflow-x-hidden">
+                        <p className="text-sm uppercase font-medium">
+                            GraphQL.
+                        </p>
+                        <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                            <motion.span
+                                initial={{ x: '-100%', opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="w-[76%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                            >
+                                <span className="absolute -top-7 right-0">
+                                    76%
                                 </span>
                             </motion.span>
                         </span>

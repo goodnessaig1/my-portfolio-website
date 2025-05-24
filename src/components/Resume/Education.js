@@ -22,7 +22,7 @@ const Education = () => {
                 <div className="mt-6 lgl:mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
                     <ResumeCard
                         title="BSc in Industrial Production Engineering. In progress"
-                        subTitle="Nnamdi Azikiwe University, awka(2019 - Present)"
+                        subTitle="Nnamdi Azikiwe University, awka(2019 - 2024)"
                     />
 
                     <ResumeCard
