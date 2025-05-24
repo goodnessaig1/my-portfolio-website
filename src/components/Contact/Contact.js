@@ -48,12 +48,6 @@ const Contact = () => {
                         setSuccessMsg(
                             `Thank you dear ${username}, Your Messages has been sent Successfully!`
                         );
-                        // setErrMsg('');
-                        // setUsername('');
-                        // setPhoneNumber('');
-                        // setEmail('');
-                        // setSubject('');
-                        // setMessage('');
                     },
                     (error) => {
                         console.log(error.text);

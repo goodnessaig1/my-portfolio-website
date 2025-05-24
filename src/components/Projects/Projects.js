@@ -7,6 +7,9 @@ import {
     amazon,
     restaurant,
     travel,
+    gruve,
+    expressodds,
+    flypro,
 } from '../../assets/index';
 
 import ProjectsCard from './ProjectsCard';
@@ -24,6 +27,30 @@ const Projects = () => {
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+                <ProjectsCard
+                    className="fit-contain"
+                    title="Gruve events"
+                    des="Gruve events is a ticketing platform that allows event hosts to create an event with tickets that can be free or paid. Attendees can pay for events, register for tickets and all."
+                    src={gruve}
+                    gitRepo=""
+                    live="https://www.gruve.events/"
+                />
+                <ProjectsCard
+                    className="fit-contain"
+                    title="Expressodds"
+                    des="Expressodds is a betting platform that allows users view betslips or rollovers, purchase tips either free or paid, get refunded for lost bets. It also gives tipsters the ability to make money from won predictions"
+                    src={expressodds}
+                    gitRepo="https://github.com/efosdan/expressodds"
+                    live="https://www.expressodds.net/"
+                />
+                <ProjectsCard
+                    className="fit-contain"
+                    title="FlyPro"
+                    des="FlyPro is an Ai-powered travel companion-simplified website."
+                    src={flypro}
+                    gitRepo=""
+                    live="https://www.flypro.io/"
+                />
                 <ProjectsCard
                     className="fit-contain"
                     title="STAFFCONN"
@@ -45,27 +72,6 @@ const Projects = () => {
                     src={the_venue}
                     gitRepo="https://github.com/goodnessaig1/The_venue_events"
                     live="https://arrogant-offer.surge.sh/"
-                />
-                <ProjectsCard
-                    title="Landing Page"
-                    des="Landing page for a site where you can search for hotels and book them for a nignt or months"
-                    src={landing}
-                    gitRepo="https://github.com/goodnessaig1/first-landing-projectII"
-                    live="http://gentle-cars.surge.sh/"
-                />
-                <ProjectsCard
-                    title="Goody Restaurant"
-                    des="This is a responsive restaurant website where users can view our food menu, view our special list and also see our awards"
-                    src={restaurant}
-                    gitRepo="https://github.com/goodnessaig1/goody-restaurant"
-                    live="https://goody-restaurant.vercel.app/"
-                />
-                <ProjectsCard
-                    title="Travel App"
-                    des=" This is a website to book places for aventure, picnics or tourist visit"
-                    src={travel}
-                    gitRepo="https://github.com/goodnessaig1/Travel-Website"
-                    live="https://travel-website-lime-three.vercel.app/"
                 />
             </div>
         </section>
