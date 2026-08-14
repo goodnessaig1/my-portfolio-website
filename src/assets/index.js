@@ -9,6 +9,11 @@ import expressodds from './images/projects/expressodds.png';
 import amazon from './images/projects/amazon.png';
 import restaurant from './images/projects/restaurant.png';
 import travel from './images/projects/travelapp.png';
+import lenvor from './images/projects/lenvor.webp';
+import manorr from './images/projects/manorr.webp';
+import venstoc from './images/projects/venstoc.webp';
+import yummyyou from './images/projects/yummyyou.webp';
+import texis from './images/projects/texis.png';
 
 export {
     quote,
@@ -22,4 +27,9 @@ export {
     restaurant,
     travel,
     gruve,
+    lenvor,
+    manorr,
+    venstoc,
+    yummyyou,
+    texis,
 };
